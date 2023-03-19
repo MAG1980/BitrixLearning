@@ -1,9 +1,9 @@
-@charset "UTF-8";
 :root {
-  --color1: #FF784E;
-  --color2: #009CAE;
-  --color3: #1C71B8;
-  --radius: 26px;
+	--color1: #FF784E;
+	--color2: #009CAE;
+	--color3: #1C71B8;
+
+	--radius: 26px;
 }
 
 /*
@@ -71,59 +71,3 @@
   <use xlink:href="#icons8-галочка-50"></use>
 </svg>
 */
-body {
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
-  color: #333333;
-}
-
-.header {
-  display: flex;
-}
-.header_logo {
-  width: 117px;
-}
-.header_logo a {
-  display: block;
-}
-.header_logo img {
-  width: 100%;
-}
-.header_content {
-  flex-grow: 1;
-}
-.header_content_row span {
-  font-family: "Pacifico", cursive;
-  color: var(--color1);
-  font-size: 29px;
-  padding: 20px 0;
-  display: block;
-  text-align: center;
-}
-.header_content_row i {
-  font-style: normal;
-  color: var(--color2);
-}
-.header_cart {
-  width: 190px;
-}
-.header_cart_auth svg {
-  display: inline-block;
-  width: 20px;
-}
-
-.footer {
-  background: #444;
-  display: flex;
-  justify-content: space-between;
-  color: #888888;
-  padding: 30px;
-}
-.footer_copies {
-  width: 40%;
-}
-.footer_stats {
-  width: 40%;
-}
-
-/*# sourceMappingURL=template_styles.css.map */

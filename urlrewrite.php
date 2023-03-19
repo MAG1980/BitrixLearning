@@ -56,12 +56,12 @@ $arUrlRewrite=array (
     'PATH' => '/personal/order/index.php',
     'SORT' => 100,
   ),
-  10 => 
+  14 => 
   array (
-    'CONDITION' => '#^/personal/#',
+    'CONDITION' => '#^/catalog/#',
     'RULE' => '',
-    'ID' => 'bitrix:sale.personal.section',
-    'PATH' => '/personal/index.php',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/catalog/index.php',
     'SORT' => 100,
   ),
   11 => 
